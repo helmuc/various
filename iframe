@@ -1,0 +1,20 @@
+<!--This comment part can be removed. This is a simple iframe code to display an external website under any domain. Just change the url and put it in your index file. Be happy-->
+
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+
+		<title>Title of your Website</title>
+	</head>
+
+	<frameset border="0" frameborder="no" framespacing="0" rows="1,*">
+		<frame name="haut" noresize src="top.html">
+		<frame name="page" noresize src="https://www.hostmaria.com">
+		<noframes>
+
+			<body bgcolor="#000000">
+			</body>
+
+		</noframes>
+	</frameset>
+</html>
